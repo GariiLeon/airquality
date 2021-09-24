@@ -1,0 +1,20 @@
+{
+  "name": "air-quality",
+  "version": "1.0.0",
+  "description": "API exposing quality air's informations of the nearest city of a spectified gps coordinates using iqair",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "garina.leon@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
